@@ -12,8 +12,8 @@ module.exports = env => {
 
   // Path to your entry point. From this file Webpack will begin his work
   entry: { 
-      bilmetro: './src/scss/theme-1.scss',
-      trucks: './src/scss/theme-2.scss',
+      theme1: './src/scss/theme-1.scss',
+      theme2: './src/scss/theme-2.scss',
       app: './src/javascript/app.js',
       // vendor: ['jquery', 'bootstrap']
 },
