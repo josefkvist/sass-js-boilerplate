@@ -1,0 +1,22 @@
+.c-button-block {
+
+    display:flex;
+    align-items:center;
+  
+    a {
+      background: $bm-blue;
+      border-radius: 45px;
+      color: $white;
+      height: 40px;
+      padding: .5rem 2rem;
+      margin:0 auto;
+      display: inline-block;
+      transition: all .25s;
+  
+      &:hover, &:focus {
+        background: $blue-light;
+      }
+     
+    }
+  }
+  
