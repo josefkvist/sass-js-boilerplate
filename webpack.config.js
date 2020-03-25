@@ -91,7 +91,7 @@ module.exports = env => {
     
     new CleanWebpackPlugin({
       protectWebpackAssets: false,
-      cleanAfterEveryBuildPatterns: ['trucks.js*', 'bilmetro.js*']
+      cleanAfterEveryBuildPatterns: ['theme-1.js*', 'theme-2.js*']
     }),
   
   
