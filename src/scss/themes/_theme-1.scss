@@ -1,22 +1,3 @@
 // ----- theme
-$bm-blue: #006692 !default;
-$blue: $bm-blue !default;
-$blue-light: #0099DA !default;
-
-
-//Top navigation
-$main-header-bg: #172330 !default;
-$c-main-header-nav-active: $bm-blue !default;
-$c-main-header-nav-active-text: #fff !default;
-$menu-hover: $blue-light !default;
-
-
-//Modals
-$modal-header-bg: $blue-light !default;
-$modal-header-color: #fff !default;
-
-
-//buttons
-$btn-hover-dark: #172330 !default;
-$hover-dark: #022331;
-$btn-dark: $bm-blue !default;
+$primary: #006692 !default;
+$primary-light: #0099DA !default;
