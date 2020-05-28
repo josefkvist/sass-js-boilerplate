@@ -47,8 +47,6 @@ module.exports = env => {
           use: [
                 {
                 loader:  MiniCssExtractPlugin.loader,
-                  
-
                   options: {
                   }
                 },
@@ -72,7 +70,6 @@ module.exports = env => {
                   options: {
                     implementation: require("sass"),
                     sourceMap:true,
-
                   }
                 }
                 ]
@@ -93,8 +90,6 @@ module.exports = env => {
       protectWebpackAssets: false,
       cleanAfterEveryBuildPatterns: ['theme1.js*', 'theme2.js*']
     }),
-  
-  
   ],
   watch: env.NODE_ENV === 'development',
   devtool: 'source-maps',
